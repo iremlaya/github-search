@@ -1,46 +1,107 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br />
+<p align="center">
 
-## Available Scripts
+  <h3 align="center">Github Search App</h3>
 
-In the project directory, you can run:
+  <p align="center">
+    Simple search application to quickly find repos. 
+    To be added: search users, bookmark repos, show repo details.
+    <br />
+    ·
+    <a href="https://github.com/iremlaya/github-search/issues">Report Bug or Request Feature</a>
+    ·
+  </p>
+</p>
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Built With/Implemented Technologies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* `react-router-dom`
+* `GitHub API`
+* `material-ui`
+* `eslint`
+* `useContext` for state management
+* `TypeScript`
+* `React Hooks`    
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- GETTING STARTED -->
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To get a local copy up and running follow these simple steps.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Prerequisites
 
-## Learn More
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+* Optional: yarn
+  ```sh
+  npm install --global yarn
+  ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone the repo
+   ```sh
+   git clone https://github.com/iremlaya/github-search.git
+   ```
+2. Install NPM packages. I prefer Yarn.
+   ```sh
+   yarn install
+   ```
+3. Start the project.
+    ```sh
+   yarn start
+   ```
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+ * Adding User search
+ * Changing the state objects with multiple search types in mind
+ * Possibly using Redux and useReducer; since it gets too complicated with the context; and it's not the main purpose of it.
+ * Add bookmarking feature; with a bookmarked value attached to the results.
+ * Refactor and decouple the code. The logic is all over the place.
+ * Re-write css and styling; only use inline or css.
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Irem Kaya - iremlcaya@gmail.com
+
