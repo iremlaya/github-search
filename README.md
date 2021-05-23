@@ -41,8 +41,9 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Demo
 
+![screen-gif](./digieggsgif.gif)
 
 ### Built With/Implemented Technologies
 
