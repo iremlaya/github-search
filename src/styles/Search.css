@@ -1,0 +1,17 @@
+.search {
+    position: 'relative';
+    border-radius: 4px;
+    background-color: #19417f;
+    width: 288px;
+    margin-left: 16px;
+    height: 34px;
+    display:flex;
+
+}
+.search:hover {
+    background-color: #19427fb0;
+}
+.search-icon{
+    margin: 4px 4px 4px 10px;
+
+}

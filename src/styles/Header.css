@@ -1,0 +1,25 @@
+.icon {
+    height:100%;
+    width:100%;
+}
+.header-container {
+    z-index: 10;
+}
+
+.icon-wrapper {
+    height:20px;
+    width: 140px;   
+    text-align: center;
+
+}
+.appbar {
+
+    height:65px;
+}
+.toolbar {
+    background-color: #375f9d;
+    height:65px
+}
+.input{
+    color: "#b8cae5"
+}
